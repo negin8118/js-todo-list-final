@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="Bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+<section class="vh-100 gradient-custom">
+
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+
+            <div class="col col-xl-10">
+                <h1 class="text-center fw-bold text-white mb-4">My to do List</h1>
+                <div id="error" class="mt-5 text-center fw-bold"></div>
+                <h4><span class="badge bg-info" id="todoCount"></span></h4>
+                <div class="shadow p-3 card">
+                    <div class="card-body p-5">
+
+
+                        <div id="taskForm" class="d-flex align-items-center mb-4">
+                            <div class="flex-fill">
+                                <input type="text" class="form-control" id="taskInput" placeholder="Write a task">
+                            </div>
+                            <button id="AddBtn" type="button" class="btn btn-info ms-3 text-white">
+                                Add
+                            </button>
+                        </div>
+
+
+                        <ul class="nav nav-tabs mb-4 pb-2" role="tablist">
+                            <li class="nav-item">
+                                <button
+                                        class="nav-link active"
+
+
+                                        data-filter="all"
+                                        type="button">
+                                    All
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                        class="nav-link"
+
+
+                                        data-filter="active"
+                                        type="button">
+                                    Active
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                        class="nav-link"
+                                        data-filter="completed"
+                                        type="button">
+                                    Completed
+                                </button>
+                            </li>
+                        </ul>
+
+
+                        <div class="tab-content">
+
+                            <div class="tab-pane fade show active" id="all">
+                                <ul id="taskList" class="list-group mb-0"></ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

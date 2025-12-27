@@ -1,0 +1,22 @@
+body {
+background: #ebccff;
+font-family:'Poppins', sans-serif;
+}
+
+
+.todo-item {
+background-color: #f4f6f7;
+
+}
+
+.completed {
+background-color: #90EE90;
+ }
+
+.text-completed {
+   text-decoration:line-through;
+}
+
+[contenteditable="true"]:focus {
+  outline: none;
+}
