@@ -9,12 +9,12 @@ error handeling for when the tasks are null.
 UI design.
 
 ## Bonus Features
-Editing tasks
-counting and showing completed tasks (the stats)
+Editing tasks.
+counting and showing completed tasks (the stats).
 supporting farsi structure for tasks. rtl (eventhough this wasn't in the bonus suggestions, I added it.)
 
 
-## Live Demo
+## Live Deployment
 https://negin8118.github.io/js-todo-list-final/
 
 ## What I Learned
