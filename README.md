@@ -1,6 +1,6 @@
 # js-todo-list-final
 
-A simple todo list buit with Js and html css.
+A simple todo list built with Js and html css.
 
 ## Features
 It has the ability to add, save, edit and delete tasks (CRUD).
