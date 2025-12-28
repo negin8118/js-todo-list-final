@@ -20,3 +20,6 @@ https://negin8118.github.io/js-todo-list-final/
 ## What I Learned
 how to use DOM. how to take inputs from html and work with them on Js.
 persisting data in Js.
+
+## Preview
+https://github.com/user-attachments/assets/f4c58bc6-4df8-470f-9801-e79f0c5613eb
